@@ -1,0 +1,80 @@
+body {
+  font-family: "Amatic SC", cursive;
+  color: #fff;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+
+h1 {
+  color: grey;
+}
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+.card {
+  background-color: rgb(104, 149, 149);
+  border-color: rgb(104, 149, 149);
+}
+.searchbar {
+  display: inline;
+  margin-left: 170px;
+  margin-bottom: 40px;
+  width: 60%;
+}
+.search-button {
+  display: inline;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.home-emoji {
+  color: azure;
+  font-size: 40px;
+  text-align: center;
+}
+
+.weather-icon {
+  color: azure;
+  font-size: 30px;
+  text-align: center;
+}
+.Forecast-line {
+  text-align: center;
+  margin-top: 40px;
+  background-color: azure;
+  color: grey;
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Forecast-icons {
+  text-align: center;
+  font-size: 30px;
+  background-color: azure;
+  color: rgb(159, 159, 159);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.date {
+  text-align: center;
+}
+.temperatureUnit {
+  display: inline;
+  color: #fff;
+}
